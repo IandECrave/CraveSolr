@@ -1,0 +1,10 @@
+language: java
+
+jdk: openjdk10
+
+git:
+  depth: 1
+
+script:
+    - cd lucene-solr
+    - ./gradlew assemble
