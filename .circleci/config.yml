@@ -23,4 +23,4 @@ jobs:
       - checkout
       - run:
          name: Start building
-         command: '- cd lucene-solr && ./gradlew -p lucene assemble'
+         command: 'cd lucene-solr && ./gradlew -p lucene assemble'
